@@ -1,5 +1,5 @@
 import axios from "axios";
-import useData, { FetchResponse } from "./useData";
+import { FetchResponse } from "../services/api-client";
 import { useQuery } from "@tanstack/react-query";
 
 import apiClient from "../services/api-client";
